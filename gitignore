@@ -1,0 +1,49 @@
+# ─────────────────────────────────────────────
+#  Python
+# ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+.venv/
+venv/
+env/
+
+# Runtime-generated data (leaderboard / session history)
+session_history.json
+
+# ─────────────────────────────────────────────
+#  Unity
+# ─────────────────────────────────────────────
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+*.csproj
+*.sln
+*.unityproj
+*.suo
+*.user
+*.booproj
+*.pidb
+*.apk
+*.unitypackage
+
+# ─────────────────────────────────────────────
+#  Arduino / ESP32
+# ─────────────────────────────────────────────
+*.hex
+*.elf
+*.bin
+build/
+
+# ─────────────────────────────────────────────
+#  OS / editor
+# ─────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/

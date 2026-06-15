@@ -1,0 +1,7 @@
+# Flow State — Python pipeline dependencies
+# Install with:  pip install -r requirements.txt
+
+brainflow      # Muse 2 streaming + PSD/band-power (BoardShim, DataFilter)
+numpy          # array math
+scipy          # signal filters (butter, filtfilt, iirnotch)
+pyserial       # USB serial link to the ESP32
